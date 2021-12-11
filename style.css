@@ -10,6 +10,7 @@ body{
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .add{
@@ -61,12 +62,13 @@ body{
 }
 
 .notes .main{
+    overflow: scroll;
     padding: 5px;
     color: black;
     width: 100%;
     height: 100%;
     font-family: inherit;
-    background-color: rgba(223, 223, 163, 0.705);
+    background-color: rgb(223, 223, 163);
 }
 
 .notes .hidden{
